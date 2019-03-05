@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kishan Keshari">
+    
+    <title>Simple Site | Welcome</title>
+    <link rel="icon" type="image/icon" href="./img/icon.jpeg" sizes="16*16" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    })
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">SimpleSite</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Our Blog</a></li>
+                <li><a class = "active"href="#">LOG IN</a></li>
+            </ul>
+        </nav>
+    </div>
+        <section id="showcase">
+            <div class="container">
+                <h1>Create your website in <b>three simple steps</b></h1>
+                <p><i>- It's free! -</i></p>
+                <button>START HERE</button>
+            </div>
+
+
+        </section>
+
+        <section id="slideshow">
+            <div class="container">
+                <!--Slideshow of images will be shown here in this site-->
+            </div>
+        </section>
+
+        <section class="themes">
+            <div class="container">
+                    <h2>THEMES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus 
+                possimus expedita temp Sit enim si
+                milique nostrum eligendi, itaque sunt eum aut esse.</p>
+            </div>
+        </section>
+        <!--Zig zag screen layout starts here-->
+        <div style="text-align:center">
+                <h2>Responsive Zig Zag Layout Example</h2>
+                <p>Resize the browser window to see the effect.</p>
+              </div>
+              
+              <!-- The App Section -->
+              <div class="container">
+                <div class="row">
+                  <div class="column-66">
+                    <h1 class="xlarge-font"><b>The App</b></h1>
+                    <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why buy it?</b></h1>
+                    <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button class="button">Download Application</button>
+                  </div>
+                  <div class="column-33">
+                      <img src="./img/blog2.jpg" width="335" height="471">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Clarity Section -->
+              <div class="container" style="background-color:#f1f1f1">
+                <div class="row">
+                  <div class="column-33">
+                    <img src="./img/blogs.jpg" alt="App" width="335" height="471">
+                  </div>
+                  <div class="column-66">
+                    <h1 class="xlarge-font"><b>Clarity</b></h1>
+                    <h1 class="large-font" style="color:red;"><b>Pixels, who?</b></h1>
+                    <p><span style="font-size:24px">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="button" style="background-color:red">Read More</button>
+                  </div>
+                </div>
+              </div>
+              
+
+        <!--Zig zag screen layout ends here-->
+        <section class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="coulumn">
+                        <h2>FEATURES</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                              distinctio facilis praesentium nostrum?</p>
+                        <button>START HERE</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="" alt="">
+                    </div>
+                </div>
+    
+    
+        </section>
+    
+        <footer>
+           
+            <h3 class="columnfoot">SIMPLE SITE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dignissimos ad vero officia iusto, quo architecto molestiae beatae aliquam eos quod.</p>
+                <h3 class="columnfoot">SIMPLE SITE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dignissimos ad vero officia iusto, quo architecto molestiae beatae aliquam eos quod.</p>
+                
+        </footer>
+    
+
+</body>
+</html>

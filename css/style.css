@@ -1,0 +1,234 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    height: 100%;
+    
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+
+}
+
+nav.black{
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;  
+
+}
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  transition: .3s;
+  color: #E2472F;
+  font-style: italic;
+  font-weight: bold;
+
+
+}
+
+nav.black .logo{
+  color: #fff;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+nav ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a{
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+nav.black ul li a{
+  color: #fff;
+}
+
+nav ul li a:focus{
+  outline: none;
+}
+
+nav ul li a.active{
+  /*background: #E2472F;*/
+  color: #fff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color:#fff;
+  border-width: thin;
+
+
+}
+section.sec1{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+    height: auto;
+    padding-bottom: 60px;
+    text-align: center;
+    margin: 60px;
+
+}
+
+#showcase{
+    text-align: center;
+    min-height:720px;
+    background:url("../img/mountain.jpg") no-repeat ;
+    background-size: cover;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+
+#showcase h1{
+  font-size: 40px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+#showcase p i{
+  font-size: 25px;
+  color: rgb(216, 76, 41);
+  
+}
+.wrapper {
+  float: right;
+  margin: 8px;
+  padding: 10px;
+  
+
+}
+
+button{
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: rgb(179, 42, 21);
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 25px;
+  margin-top: 35px;
+  border-style: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-color: #fff;
+  border-width: thin;
+  border-style: solid;
+
+}
+/*Css of zig zag layout starts here*/
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+/*Css of zig zag layout ends here*/
+
+
+footer{
+    padding: 80px;
+    
+    background-color: grey;
+}
+
+.columnfoot{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
